@@ -13,3 +13,12 @@ alias wdbu='bash ~/superScripts/list_contributions'
 
 #List the no. of commits added by different programmers in the current porject
 alias ccbu='git shortlog -sn --all'
+
+
+#Directory aliases
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+alias dl="cd ~/Downloads"
