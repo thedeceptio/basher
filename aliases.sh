@@ -11,7 +11,8 @@ alias gd='git diff'
 #acronym Work Done By User
 alias wdbu='bash ~/superScripts/list_contributions'
 
-#List the no. of commits added by different programmers in the current porject
+#List the no. of commits added by different programmers in the current project
+#Acronym Commit count By User
 alias ccbu='git shortlog -sn --all'
 
 
@@ -22,3 +23,4 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 alias dl="cd ~/Downloads"
+alias cb="cd ~/basher"
