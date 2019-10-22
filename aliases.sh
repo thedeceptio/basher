@@ -26,6 +26,15 @@ alias dl="cd ~/Downloads"
 alias cb="cd ~/basher"
 
 
-#Sequelize Migrations
+#Sequelize aliases
 alias makem="node ./node_modules/sequelize-auto-migrations/bin/makemigration --name"
 alias runm="node ./node_modules/sequelize-auto-migrations/bin/runmigration"
+
+
+
+#Node aliases
+alias na="nodemon app.js"
+
+#Forever aliases
+alias fs="forever start"
+alias frall='forever restartAll'
