@@ -9,7 +9,7 @@ alias gd='git diff'
 
 # List the no. of lines of codes added by different programmers in the current project
 #acronym Work Done By User
-alias wdbu='bash ~/superScripts/list_contributions'
+alias wdbu='bash ~/basher/scripts/listContributions.sh'
 
 #List the no. of commits added by different programmers in the current project
 #Acronym Commit count By User
@@ -24,3 +24,8 @@ alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 alias dl="cd ~/Downloads"
 alias cb="cd ~/basher"
+
+
+#Sequelize Migrations
+alias makem="node ./node_modules/sequelize-auto-migrations/bin/makemigration --name"
+alias runm="node ./node_modules/sequelize-auto-migrations/bin/runmigration"
