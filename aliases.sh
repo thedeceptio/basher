@@ -6,6 +6,7 @@ alias gpl='git pull origin'
 alias gps='git push origin'
 alias gc='git checkout'
 alias gd='git diff'
+alias gm='git commit -am'
 
 # List the no. of lines of codes added by different programmers in the current project
 #acronym Work Done By User
@@ -38,3 +39,9 @@ alias na="nodemon app.js"
 #Forever aliases
 alias fs="forever start"
 alias frall='forever restartAll'
+
+
+
+#Bash Aliases
+alias sol="source ~/.bashrc"
+alias updateThenUpgrade="sudo apt-get update && sudo apt-get upgrade"
