@@ -18,3 +18,15 @@ fi
 source ~/.bashrc
 ```
 
+
+#Available commands
+1. gs : git status
+2. gpl $branchName :  git pull origin $branchName
+3. gps $branchName : git push origin $branchName
+4. gc : git checkout
+5. gd : git diff
+6. gm $commitMsg : git commit -am $commitMsg
+7. gcap $commitMsg $branchName : gitCommitAndPush $commitMsg $branchName
+8. wdbu : (acronym for work done by user, lists the no. of lines added and removed by each developer)
+9. ccbu : (acronym for commit count by user, lists the developer and the no. of commits added by them)
+ 
