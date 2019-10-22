@@ -19,7 +19,7 @@ source ~/.bashrc
 ```
 
 
-#Available commands
+# Available commands
 1. gs : git status
 2. gpl $branchName :  git pull origin $branchName
 3. gps $branchName : git push origin $branchName
