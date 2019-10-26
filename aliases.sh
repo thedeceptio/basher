@@ -1,8 +1,7 @@
-#This file will have all the aliases
+#This file will have all the aliases, Some aliases might use functions listed in the functions file
 
 #Miscellaneous
 alias cl='clear'
-
 
 #Git aliases
 alias gf='git fetch'
