@@ -1,6 +1,11 @@
 #This file will have all the aliases
 
-#Git Shortcuts
+#Miscellaneous
+alias cl='clear'
+
+
+#Git aliases
+alias gf='git fetch'
 alias gs='git status'
 alias gpl='git pull origin'
 alias gps='git push origin'
@@ -33,7 +38,6 @@ alias makem="node ./node_modules/sequelize-auto-migrations/bin/makemigration --n
 alias runm="node ./node_modules/sequelize-auto-migrations/bin/runmigration"
 
 
-
 #Node aliases
 alias na="nodemon app.js"
 
@@ -41,6 +45,9 @@ alias na="nodemon app.js"
 alias fs="forever start"
 alias frall='forever restartAll'
 
+
+#Python aliases
+alias jn='jupyter notebook'
 
 
 #Bash Aliases
