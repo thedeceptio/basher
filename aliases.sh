@@ -12,6 +12,7 @@ alias gc='git checkout'
 alias gd='git diff'
 alias gm='git commit -am'
 alias gcap='gitCommitAndPush'
+alias gcb="git branch | grep \* | cut -d ' ' -f2"
 
 # List the no. of lines of codes added by different programmers in the current project
 #acronym Work Done By User
