@@ -10,6 +10,7 @@ alias gpl='git pull origin'
 alias gps='git push origin'
 alias gc='git checkout'
 alias gd='git diff'
+alias gdb='gitDiffWithMaster'
 alias gm='git commit -am'
 alias gcap='gitCommitAndPush'
 alias gcb="git branch | grep \* | cut -d ' ' -f2"
