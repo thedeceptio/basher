@@ -8,3 +8,12 @@ function gitDiffWithMaster(){
     git diff master.."$1"
 }
 
+#function gitDiffWithMasterAndCurrent(){
+#    a=gitCurrentBranch();
+#    git diff master..$a
+#}
+
+function gitCurrentBranch(){
+    git rev-parse --abbrev-ref HEAD
+}
+
