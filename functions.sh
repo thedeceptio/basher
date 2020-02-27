@@ -21,6 +21,6 @@ function gitCurrentBranch(){
 function findDuplicatesRecursive(){
   for file in $1/*; do
        [[ -f $file ]] &&  uniq -D $file
-       [[ -d $file ]] && parseFiles $file
+       [[ -d $file ]] && findDuplicatesRecursive $file
   done
 }
