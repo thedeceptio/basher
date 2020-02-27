@@ -32,6 +32,7 @@ alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 alias dl="cd ~/Downloads"
 alias cb="cd ~/basher"
+alias findDuplicates='findDuplicatesRecursive'
 
 
 #Sequelize aliases

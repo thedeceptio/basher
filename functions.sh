@@ -17,3 +17,10 @@ function gitCurrentBranch(){
     git rev-parse --abbrev-ref HEAD
 }
 
+
+function findDuplicatesRecursive(){
+  for file in $1/*; do
+       [[ -f $file ]] &&  uniq -D $file
+       [[ -d $file ]] && parseFiles $file
+  done
+}
