@@ -36,5 +36,4 @@ source ~/.bashrc
 14. frall : forever restartAll
 15. sol : source ~/.bashrc (Source the current bashrc file)
 16. updateThenUpgrade : Ubuntu Update and Upgrade
-
- 
+17. findDuplicates $filename :Recursively searches consecutive duplicate lines of code in a folder
