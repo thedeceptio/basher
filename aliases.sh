@@ -5,6 +5,7 @@ alias cl='clear'
 
 #Git aliases
 alias gf='git fetch'
+alias gb='git branch'
 alias gs='git status'
 alias gpl='git pull origin'
 alias gps='git push origin'
