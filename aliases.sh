@@ -43,6 +43,7 @@ alias runm="node ./node_modules/sequelize-auto-migrations/bin/runmigration"
 
 #Node aliases
 alias na="nodemon app.js"
+alias npms="npm start"
 
 #Forever aliases
 alias fs="forever start"
