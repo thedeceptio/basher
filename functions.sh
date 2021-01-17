@@ -3,6 +3,11 @@ function gitCommitAndPush(){
   git push origin "$2"
 }
 
+function gitCheckoutAndPull(){
+	git checkout "$1"
+	git pull origin "$1"
+}
+
 
 function gitDiffWithMaster(){
     git diff master.."$1"
