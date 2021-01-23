@@ -5,7 +5,7 @@ function gitCommitAndPush(){
 
 function gitCheckoutAndPull(){
 	git checkout "$1"
-	git pull origin "$1"
+	git pull origin "$1"   
 }
 
 
