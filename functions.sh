@@ -30,4 +30,13 @@ function findDuplicatesRecursive(){
   done
 }
 
+function restartProduction(){
+	cd ~/gotham/fabric
+        fab justRestartProduction
+}
 
+
+function releaseCodeAndRestartProduction(){
+	cd ~/gotham/fabric
+        fab deployProduction
+}

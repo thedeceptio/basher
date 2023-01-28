@@ -11,6 +11,7 @@ alias gpl='git pull origin'
 alias gps='git push origin'
 alias gc='git checkout'
 alias gcp='gitCheckoutAndPull'
+alias gcpm='gitCheckoutAndPull master'
 alias gd='git diff'
 alias gdb='gitDiffWithMaster'
 alias gm='git commit -am'
@@ -35,7 +36,8 @@ alias ......="cd ../../../../.."
 alias dl="cd ~/Downloads"
 alias cb="cd ~/basher"
 alias findDuplicates='findDuplicatesRecursive'
-
+alias reProd='restartProduction'
+alias deployProd='releaseCodeAndRestartProduction'
 
 #Sequelize aliases
 alias makem="node ./node_modules/sequelize-auto-migrations/bin/makemigration --name"
