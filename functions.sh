@@ -44,13 +44,11 @@ function releaseCodeAndRestartProduction(){
 
 function searchInCommits(){
   git log --oneline | while read commit_hash commit_message; do
-    echo "Checking commit $commit_hash for $1 ..."
-
     # Search for given string ($1) in code changes for each commit
-    git diff-tree --no-commit-id --name-only -r $commit_hash | while read file_path; do
-        if grep -q "$1" $file_path; then
-            echo "Found $1 in $file_path and commit ID $commit_hash"
+    diffs= $(git diff $commit_hash)
+        if grep -q "$1" $diffs; then
+            echo "Found $1 in commit ID $commit_hash"
         fi
-    done
+    
 done
 }

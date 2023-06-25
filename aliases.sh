@@ -27,6 +27,10 @@ alias wdbu='bash ~/basher/scripts/listContributions.sh'
 alias ccbu='git shortlog -sn --all'
 
 
+#This will uninstall all python packages which show up in pip list result
+alias uuinstall_all_pip_packages='bash ~/basher/scripts/uninstall_python.sh'
+
+
 #Directory aliases
 alias ..="cd .."
 alias ...="cd ../.."
